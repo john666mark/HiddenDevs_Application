@@ -57,9 +57,6 @@ local function Calculate_Money_Per_Sec(
 	end
 
 	local Ore_Bulk_Value = CalculateMoney_From_Fragments(Ore_Bulk_Amount, Price_Per_Fragment)
-	if not Ore_Bulk_Value then
-		return
-	end
 
 	return Ore_Bulk_Value / Ore_bulk_Tick
 end
